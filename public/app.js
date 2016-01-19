@@ -1,5 +1,5 @@
 angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mgcrea.ngStrap'])
-    .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
+    .config(function($locationProvider, $routeProvider) {
         $locationProvider.html5Mode(true);
 	
 	$routeProvider
@@ -26,4 +26,4 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
 	    .otherwise({
 		    redirectTo: '/'
 	    });
-    }]);
+    });
