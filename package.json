@@ -18,7 +18,10 @@
     "async": "~1.5.2",
     "lodash": "~4.0.0",
     "xml2js": "~0.4.16",
-    "request": "~2.67.0"
+    "request": "~2.67.0",
+    "passport-local": "~1.0.0",
+    "passport": "~0.3.2",
+    "express-session": "~1.13.0"
   },
   "devDependencies": {
     "gulp-plumber": "~1.0.1",

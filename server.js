@@ -13,6 +13,10 @@ var xml2js = require('xml2js');
 
 var _ = require('lodash');
 
+var session = require('express-session');
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+
 var showSchema = new mongoose.Schema({
     _id: Number,
     name: String,
