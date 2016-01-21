@@ -1,6 +1,7 @@
 angular.module('MyApp')
   .controller('AddCtrl', function($scope, $alert, Show) {
     $scope.addShow = function() {
+        console.log(5+6);
       Show.save({ showName: $scope.showName }).$promise
         .then(function() {
           $scope.showName = '';
