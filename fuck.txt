@@ -1,0 +1,101 @@
+2016-01-30T19:43:50.658963+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-01-30T19:43:50.659185+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-01-30T19:43:50.641818+00:00 app[web.1]: npm ERR! Linux 3.13.0-71-generic
+2016-01-30T19:43:50.644913+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-01-30T19:43:50.645228+00:00 app[web.1]: npm ERR! showtrackr@0.0.0 start: `node ./bin/www`
+2016-01-30T19:43:50.645513+00:00 app[web.1]: npm ERR! Exit status 1
+2016-01-30T19:43:50.645833+00:00 app[web.1]: npm ERR! 
+2016-01-30T19:43:50.646089+00:00 app[web.1]: npm ERR! Failed at the showtrackr@0.0.0 start script 'node ./bin/www'.
+2016-01-30T19:43:50.646708+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-01-30T19:43:50.646940+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the showtrackr package,
+2016-01-30T19:43:50.647213+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-01-30T19:43:50.647455+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-01-30T19:43:50.647724+00:00 app[web.1]: npm ERR!     node ./bin/www
+2016-01-30T19:43:50.647949+00:00 app[web.1]: npm ERR! You can get their info via:
+2016-01-30T19:43:50.648148+00:00 app[web.1]: npm ERR!     npm owner ls showtrackr
+2016-01-30T19:43:50.648384+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-01-30T19:43:50.658527+00:00 app[web.1]: 
+2016-01-30T19:43:51.508759+00:00 heroku[web.1]: Process exited with status 1
+2016-01-30T19:43:52.617381+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=showtrackev.herokuapp.com request_id=62bb5ffe-65ad-484d-9f22-cb112c6b9193 fwd="119.236.187.50" dyno= connect= service= status=503 bytes=
+2016-01-30T19:44:01.389084+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=showtrackev.herokuapp.com request_id=25935799-02f9-4666-99a7-02827e2deed2 fwd="119.236.187.50" dyno= connect= service= status=503 bytes=
+2016-01-30T19:43:51.488384+00:00 heroku[web.1]: State changed from starting to crashed
+2016-01-30T19:52:25.824876+00:00 heroku[web.1]: State changed from crashed to starting
+2016-01-30T19:52:28.005694+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-01-30T19:52:31.295635+00:00 app[web.1]: 
+2016-01-30T19:52:31.295662+00:00 app[web.1]: > showtrackr@0.0.0 start /app
+2016-01-30T19:52:31.295664+00:00 app[web.1]: > node ./bin/www
+2016-01-30T19:52:31.295664+00:00 app[web.1]: 
+2016-01-30T19:52:31.390926+00:00 app[web.1]: module.js:328
+2016-01-30T19:52:31.390931+00:00 app[web.1]:     throw err;
+2016-01-30T19:52:31.390932+00:00 app[web.1]:     ^
+2016-01-30T19:52:31.390933+00:00 app[web.1]: 
+2016-01-30T19:52:31.390934+00:00 app[web.1]: Error: Cannot find module '/app/bin/www'
+2016-01-30T19:52:31.390935+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:326:15)
+2016-01-30T19:52:31.390935+00:00 app[web.1]:     at Function.Module._load (module.js:277:25)
+2016-01-30T19:52:31.390936+00:00 app[web.1]:     at Function.Module.runMain (module.js:430:10)
+2016-01-30T19:52:31.390937+00:00 app[web.1]:     at startup (node.js:141:18)
+2016-01-30T19:52:31.390938+00:00 app[web.1]:     at node.js:1003:3
+2016-01-30T19:52:31.433696+00:00 app[web.1]: 
+2016-01-30T19:52:31.468676+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-01-30T19:52:31.468678+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-01-30T19:52:31.460339+00:00 app[web.1]: npm ERR! Linux 3.13.0-71-generic
+2016-01-30T19:52:31.460570+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-01-30T19:52:31.460722+00:00 app[web.1]: npm ERR! node v5.4.0
+2016-01-30T19:52:31.461576+00:00 app[web.1]: npm ERR! npm  v3.3.12
+2016-01-30T19:52:31.461821+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-01-30T19:52:31.462018+00:00 app[web.1]: npm ERR! showtrackr@0.0.0 start: `node ./bin/www`
+2016-01-30T19:52:31.462249+00:00 app[web.1]: npm ERR! Exit status 1
+2016-01-30T19:52:31.462361+00:00 app[web.1]: npm ERR! 
+2016-01-30T19:52:31.462563+00:00 app[web.1]: npm ERR! Failed at the showtrackr@0.0.0 start script 'node ./bin/www'.
+2016-01-30T19:52:31.462765+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-01-30T19:52:31.462933+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the showtrackr package,
+2016-01-30T19:52:31.463119+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-01-30T19:52:31.463304+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-01-30T19:52:31.463471+00:00 app[web.1]: npm ERR!     node ./bin/www
+2016-01-30T19:52:31.463640+00:00 app[web.1]: npm ERR! You can get their info via:
+2016-01-30T19:52:31.463806+00:00 app[web.1]: npm ERR!     npm owner ls showtrackr
+2016-01-30T19:52:31.463979+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-01-30T19:52:31.468045+00:00 app[web.1]: 
+2016-01-30T19:52:32.320652+00:00 heroku[web.1]: Process exited with status 1
+2016-01-30T19:52:32.382258+00:00 heroku[web.1]: State changed from starting to crashed
+2016-01-30T19:55:11.620277+00:00 heroku[web.1]: State changed from crashed to starting
+2016-01-30T19:55:13.559736+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-01-30T19:55:15.563432+00:00 app[web.1]: npm ERR! Linux 3.13.0-71-generic
+2016-01-30T19:55:15.563801+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-01-30T19:55:15.564043+00:00 app[web.1]: npm ERR! node v5.4.0
+2016-01-30T19:55:15.564480+00:00 app[web.1]: npm ERR! npm  v3.3.12
+2016-01-30T19:55:15.564778+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-01-30T19:55:15.564949+00:00 app[web.1]: npm ERR! showtrackr@0.0.0 start: `node ./bin/www`
+2016-01-30T19:55:15.565105+00:00 app[web.1]: npm ERR! Exit status 1
+2016-01-30T19:55:15.490268+00:00 app[web.1]: 
+2016-01-30T19:55:15.565271+00:00 app[web.1]: npm ERR! 
+2016-01-30T19:55:15.565430+00:00 app[web.1]: npm ERR! Failed at the showtrackr@0.0.0 start script 'node ./bin/www'.
+2016-01-30T19:55:15.565603+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-01-30T19:55:15.565765+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the showtrackr package,
+2016-01-30T19:55:15.490275+00:00 app[web.1]: > showtrackr@0.0.0 start /app
+2016-01-30T19:55:15.490276+00:00 app[web.1]: > node ./bin/www
+2016-01-30T19:55:15.565952+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-01-30T19:55:15.566074+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-01-30T19:55:15.566207+00:00 app[web.1]: npm ERR!     node ./bin/www
+2016-01-30T19:55:15.566361+00:00 app[web.1]: npm ERR! You can get their info via:
+2016-01-30T19:55:15.490277+00:00 app[web.1]: 
+2016-01-30T19:55:15.566521+00:00 app[web.1]: npm ERR!     npm owner ls showtrackr
+2016-01-30T19:55:15.566693+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-01-30T19:55:15.551959+00:00 app[web.1]: module.js:328
+2016-01-30T19:55:15.551961+00:00 app[web.1]:     throw err;
+2016-01-30T19:55:15.568840+00:00 app[web.1]: 
+2016-01-30T19:55:15.569040+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-01-30T19:55:15.551962+00:00 app[web.1]:     ^
+2016-01-30T19:55:15.551962+00:00 app[web.1]: 
+2016-01-30T19:55:15.569178+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-01-30T19:55:15.551963+00:00 app[web.1]: Error: Cannot find module '/app/bin/www'
+2016-01-30T19:55:15.551964+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:326:15)
+2016-01-30T19:55:15.551964+00:00 app[web.1]:     at Function.Module._load (module.js:277:25)
+2016-01-30T19:55:15.551965+00:00 app[web.1]:     at Function.Module.runMain (module.js:430:10)
+2016-01-30T19:55:15.551965+00:00 app[web.1]:     at startup (node.js:141:18)
+2016-01-30T19:55:15.551966+00:00 app[web.1]:     at node.js:1003:3
+2016-01-30T19:55:15.559145+00:00 app[web.1]: 
+2016-01-30T19:55:16.279768+00:00 heroku[web.1]: State changed from starting to crashed
+2016-01-30T19:55:16.261395+00:00 heroku[web.1]: Process exited with status 1
+2016-01-30T19:55:18.387729+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=showtrackev.herokuapp.com request_id=02d85a2d-cb00-40db-a2ad-d72c9c7efd4f fwd="119.236.187.50" dyno= connect= service= status=503 bytes=
+2016-01-30T19:55:22.344718+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=showtrackev.herokuapp.com request_id=3e5e2e76-9930-4f48-960c-af163976c9f0 fwd="119.236.187.50" dyno= connect= service= status=503 bytes=
