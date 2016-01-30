@@ -20,8 +20,6 @@ var _ = require('lodash');
 
 var tokenSecret = 'your unique secret';
 
-mongoose.connect('mongodb://kevlai22:forever1993@ds053295.mongolab.com:53295/kev');
-
 var showSchema = new mongoose.Schema({
   _id: Number,
   name: String,
@@ -84,7 +82,7 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
 var User = mongoose.model('User', userSchema);
 var Show = mongoose.model('Show', showSchema);
 
-mongoose.connect('localhost');
+mongoose.connect('mongodb://kevlai22:forever1993@ds053295.mongolab.com:53295/kev');
 
 var app = express();
 
