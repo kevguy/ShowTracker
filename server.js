@@ -13,7 +13,7 @@ var async = require('async');
 var request = require('request');
 var xml2js = require('xml2js');
 
-var agenda = require('agenda')({ db: { address: 'mongodb://kevlai22:forever1993@ds053295.mongolab.com:53295/kev' } });
+var agenda = require('agenda')({ db: { address: 'mongodb://livelong:suckit@ds053295.mongolab.com:53295/kev' } });
 var sugar = require('sugar');
 var nodemailer = require('nodemailer');
 var _ = require('lodash');
