@@ -9,9 +9,9 @@ angular.module('MyApp')
     // Asynchronously initialize Facebook SDK
     $window.fbAsyncInit = function() {
       FB.init({
-        appId: '624059410963642',
+        appId: '1680383792201142',
         responseType: 'token',
-        version: 'v2.0'
+        version: 'v2.5'
       });
     };
 
